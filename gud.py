@@ -1,5 +1,5 @@
 # buka file fileku.txt
-fileku = open("fileku.txt,r")
+fileku = open("fileku.txt")
 
 # baca isi file
 file = fileku.read()
