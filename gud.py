@@ -1,11 +1,11 @@
-# buka file fileku.txt
-fileku = open("fileku.txt")
+print "isi data :"
 
-# baca isi file
-file = fileku.read()
+nama = raw_input("Nama  : ")
+umur = input("Umur : ")
+alamat = raw_input("Alamat : ")
 
-#cetak isi file
-print file
+# format teks
+textnya = "Nama : {}\nUmur : {}\nAlamat : {}".format(nama, umur, alamat)
+#buka file untuk ditulis
 
-# tutup file
-fileku.close
+fileku = open("iniadalahfilenya.txt", "a")
